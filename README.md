@@ -56,24 +56,24 @@ Questions to address: How do your results impact the KPIs of the business? What 
 (20th May)
 In our last meeting we discussed the next steps in the project.  Our overall question or goal to answer is along the lines of :
 
-    Why do clinical trials fail? (Broad)
+Why do clinical trials fail? (Broad)
 
-    Competing therapies?
-    Eligibility criteria?
-    Different phases?
-    Safety?
-    Efficacy?
+Competing therapies?
+Eligibility criteria?
+Different phases?
+Safety?
+Efficacy?
 
 We will be doing the following this week:
 
-    Data Sources (https://clinicaltrials.gov/)
-    EDA 
+Data Sources (https://clinicaltrials.gov/)
+EDA 
 
 Future discussion at next meeting:
 
-    Methods
+Methods
 
-    Random forests
-    NLP
-    Neural Networks
+Random forests
+NLP
+Neural Networks
 
