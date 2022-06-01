@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="EFraction <= 0.3\nsquared_error = 0.2\nsamples = 3197\nvalue = 0.8"] ;
+1 [label="Months <= 80.5\nsquared_error = 0.2\nsamples = 493\nvalue = 0.3"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Intervention <= 3.5\nsquared_error = 0.2\nsamples = 453\nvalue = 0.3"] ;
+1 -> 2 ;
+3 [label="squared_error = 0.2\nsamples = 359\nvalue = 0.2"] ;
+2 -> 3 ;
+4 [label="squared_error = 0.2\nsamples = 94\nvalue = 0.5"] ;
+2 -> 4 ;
+5 [label="Months <= 102.5\nsquared_error = 0.2\nsamples = 40\nvalue = 0.7"] ;
+1 -> 5 ;
+6 [label="squared_error = 0.2\nsamples = 28\nvalue = 0.5"] ;
+5 -> 6 ;
+7 [label="squared_error = 0.1\nsamples = 12\nvalue = 0.9"] ;
+5 -> 7 ;
+8 [label="EFraction <= 0.8\nsquared_error = 0.1\nsamples = 2704\nvalue = 0.9"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Intervention <= 0.5\nsquared_error = 0.2\nsamples = 680\nvalue = 0.8"] ;
+8 -> 9 ;
+10 [label="squared_error = 0.2\nsamples = 439\nvalue = 0.7"] ;
+9 -> 10 ;
+11 [label="squared_error = 0.1\nsamples = 241\nvalue = 0.9"] ;
+9 -> 11 ;
+12 [label="Age_Type <= 0.5\nsquared_error = 0.1\nsamples = 2024\nvalue = 0.9"] ;
+8 -> 12 ;
+13 [label="squared_error = 0.2\nsamples = 3\nvalue = 0.4"] ;
+12 -> 13 ;
+14 [label="squared_error = 0.0\nsamples = 2021\nvalue = 0.9"] ;
+12 -> 14 ;
+}
