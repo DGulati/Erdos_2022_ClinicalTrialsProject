@@ -7,6 +7,8 @@ Members:
 
 # Project Summary 
 
+
+
 # Notebook Descriptions
 
 ## ExtractingFromWebpage.ipynb
@@ -52,3 +54,19 @@ The goal is to see how well these three different models perform on our data and
 
 
 # Results 
+
+## Exploratory Data Analysis
+
+
+
+## Logistic Regression Model
+![ImportancesLogistic](/Images/Importances_Logistic2.png)
+![CMLogistic](/Images/CM_Logistic2.png)
+
+## Neural Network
+![ImportancesRandom](/Images/Importances_RandomForest.png)
+![CMRandomForest](/Images/CM_RandomForest.png)
+
+![CMANN](/Images/CM_ANN.png)
+
+
