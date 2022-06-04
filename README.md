@@ -4,8 +4,8 @@ Erdös Institute Project
 Members: 
 
   - Adriana Morales Miranda (University of Illinois at Urbana-Champaign) 
-  - Meghan Peltier
-  - Devashi Gulati 
+  - Meghan Peltier (The Florida State University) 
+  - Devashi Gulati (Univeristy of Georgia) 
 
 ## Project Summary 
 
