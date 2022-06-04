@@ -1,17 +1,19 @@
-# Erdos_2022_ClinicalTrialsProject
+# Clinical Trials: Phase Completion Prediciton
+
+Erdös Institute Project 
 Members: 
 
   - Adriana Morales Miranda 
   - Meghan Peltier
   - Devashi Gulati 
 
-# Project Summary 
+## Project Summary 
 
+![factors](factors.png)
 
+## Notebook Descriptions
 
-# Notebook Descriptions
-
-## ExtractingFromWebpage.ipynb
+### ExtractingFromWebpage.ipynb
 
 In this notebook we use web extrating techniques to ge information from the ClinicalTrials.gov website. The website itself allows us to download .csv files which contain most of the information we require for our analysis. Nevertheless, there are some columns we want to have that are not as easily available.
 
@@ -23,15 +25,15 @@ There are 30,000 webpages that we want to web scrape, below is a code for automa
 
 **Note:** If you have the NCT Number for a clinical trial you want to extract information from, you can use this code to do so.
 
-## Data_Preparation.ipynb
+### Data_Preparation.ipynb
 
 In this notebook we clean and pre-proccess our data for analysis. 
 
-## Exploratory_Data_Analysis.ipynb
+### Exploratory_Data_Analysis.ipynb
 
 In this notebook we use descriptive statistical techniques to analyze the correlation between data features and the status of a trial as completed or terminated.
 
-## Model_All_Data.ipynb 
+### Model_All_Data.ipynb 
 
 In this notebook we implement three differents modeling tools for classification problems:
 
@@ -53,20 +55,21 @@ In this notebook we implement three differents modeling tools for classification
 The goal is to see how well these three different models perform on our data and extract important information.
 
 
-# Results 
+## Results 
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 
 
-## Logistic Regression Model
+### Logistic Regression Model
 ![ImportancesLogistic](/Images/Importances_Logistic2.png)
 ![CMLogistic](/Images/CM_Logistic2.png)
 
-## Neural Network
+### Random Forest Model
 ![ImportancesRandom](/Images/Importances_RandomForest.png)
 ![CMRandomForest](/Images/CM_RandomForest.png)
 
+### Neural Network Model
 ![CMANN](/Images/CM_ANN.png)
 
 
