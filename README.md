@@ -3,7 +3,7 @@
 Erdös Institute Project 
 Members: 
 
-  - Adriana Morales Miranda 
+  - Adriana Morales Miranda (University of Illinois at Urbana-Champaign) 
   - Meghan Peltier
   - Devashi Gulati 
 
@@ -81,6 +81,7 @@ We can see that the enrollment fraction is very important for predicting complet
 This model has an accuracy score of 83% on the test data. This seems pretty impressive, but remember that accuracy is not a great measure of classifier performance when the classes are imbalanced, we can see this from the precision, recall, and f1-score . We can see that our model has a 96% precision rate for trial completion and a 43% precision rate for termination. This is no doubt a result of our data imbalance. 
 
 ![CMLogistic](/Images/CM_Logistic2.png)
+![Logistic](/Images/Logistic.png)
 
 ### Random Forest Model
 
@@ -88,12 +89,14 @@ We also decided to look at a random forest model. It is called a “forest” be
 
 ![ImportancesRandom](/Images/Importances_RandomForest.png)
 ![CMRandomForest](/Images/CM_RandomForest.png)
+![Random](/Images/RandomForest.png)
 
 ### Neural Network Model
 
 Next, we implemented a neural network. In simple terms, the network acts like our brains by recognizing patterns. It processes 'inputs' from the outside world, categorizes them using mathematical layers, and then generates an 'output', which in our case is terminated or completed. This model has an accuracy score of 90% on the test data, which is very close to the Random Forest model. But this model is still not good enough if we look at the recall and f1-score for the terminated trials. 
 
 ![CMANN](/Images/CM_ANN.png)
+![ANN](/Images/ANN.png)
 
 
 
